@@ -26,7 +26,7 @@ The main steps involved in the analysis include:
  To use this repository, follow these steps:
  
  1-Clone the repository to your local machine using the following command:
-    git clone https://github.com/your-username/your-repository.git
+    ```git clone https://github.com/your-username/your-repository.git```
     
     
  2-Navigate to the repository directory:
@@ -35,15 +35,18 @@ The main steps involved in the analysis include:
  3-Install the required Python libraries. 
   It is recommended to use a virtual environment to manage the dependencies. You can create and activate a virtual environment using the following commands:
   
+  ```
   python -m venv venv
   
   source venv/bin/activate  # For Linux/Mac
   
   venv\Scripts\activate  # For Windows
+  ```
   
  4-Install the required libraries using pip:
  
-   pip install -r requirements.txt
+ 
+   ```pip install -r requirements.txt```
    
    
    
